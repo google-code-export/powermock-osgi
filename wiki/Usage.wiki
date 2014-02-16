@@ -1,0 +1,24 @@
+#labels Phase-Implementation
+Powermock is a popular mocking framework (https://code.google.com/p/powermock) which can be used to mock classes or methods which otherwise can not be mocked. This project is about to enable its use in OSGI environments especially using it for testing Eclipse Plugins.
+
+= Introduction =
+
+Simply add one of the desired features to your target platform using the latest update site.
+
+= Latest Version =
+
+The latest version is based on 1.5.4 Powermock. Update site:  http://powermock-osgi.googlecode.com/svn/trunk/updateSite/1.5.4
+
+= Gotchas=
+
+==First Time Usage==
+Tycho and Eclipse PDE caches the bundles based on symbolic name and version. So if the user already had a 4.11 version of Junit anytime in the past, our hacked powermock version will not be taken.
+ * So before first usage inside Eclipse the user has to delete the .metadata\.plugins\org.eclipse.pde.core\.bundle_pool and .metadata\.plugins\org.eclipse.pde.core\.external_libraries in ALL workspaces of the specific Eclipse installation _(bundles are looked up cross workspace way)_. BE SURE, that when you run the unit tests in eclipse the plugins tab in the launch config REALLY contains the JUnit, Mockito and Hamcrest plugins of the Powermock feature, and not some other version.
+ * Before first usage with Tycho delete the .meta .cache and p2 folders from the maven local repository
+
+==Disclaimer==
+I tested ONLY the Junit+Mockito+Powermock feature. The others should also work, but I did not test them.
+
+==Useful Trick==
+
+Known limitation is that Powermock can play only with classes in exported packages, but it is usually enough. It is possible however to export some packages only for usage of powermock using the x-friends manifest entry. Google for it.
