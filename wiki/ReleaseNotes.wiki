@@ -1,10 +1,10 @@
 = 1.5.4.1 =
 Still based on Powermock 1.5.4
 
-Fixes:
+==Fixes==
 [https://code.google.com/p/powermock-osgi/issues/detail?id=2 #2] the Hamcrest Core library now exports org.hamcrest as split package
 
-Notes:
+==Notes==
 Ugly way the hamcrest bundle version and remained the same, so please cleanup the Tycho and Eclipse bundle pools.
 
 = 1.5.4 =
