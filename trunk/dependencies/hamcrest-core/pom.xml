@@ -20,7 +20,7 @@
 	<parent>
 		<groupId>org.powermock</groupId>
 		<artifactId>powermock-osgi-dependencies</artifactId>
-		<version>1.5.4</version>
+		<version>1.5.4.1</version>
 	</parent>
 
 	<artifactId>org.hamcrest.hamcrest-core</artifactId>
@@ -49,11 +49,12 @@
 						</goals>
 						<configuration>
 							<instructions>
-								<Bundle-SymbolicName>org.hamcrest.core</Bundle-SymbolicName>
-								<Embed-Dependency>hamcrest-core</Embed-Dependency>
+								<Bundle-SymbolicName>org.hamcrest.hamcrest-core</Bundle-SymbolicName>
+								<Embed-Dependency>hamcrest*</Embed-Dependency>
 								<Export-Package>
-									org.hamcrest,
-									org.hamcrest.core
+									org.hamcrest;core=split;mandatory:=core,
+                                    org.hamcrest.core,
+									org.hamcrest.internal;x-internal:=true
 								</Export-Package>
 							</instructions>
 						</configuration>

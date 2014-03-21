@@ -20,7 +20,7 @@
 	<parent>
 		<groupId>org.powermock</groupId>
 		<artifactId>powermock-osgi-dependencies</artifactId>
-		<version>1.5.4</version>
+		<version>1.5.4.1</version>
 	</parent>
 
 	<artifactId>org.mockito.mockito-core</artifactId>
@@ -61,6 +61,7 @@
 								</Export-Package>
 								<!-- Getting rid of Ant. See https://code.google.com/p/mockito/issues/detail?id=67#c13 -->
 								<Import-Package>
+									org.hamcrest;core=split,
 									!org.apache.tools.ant.*,
 									*
 								</Import-Package>

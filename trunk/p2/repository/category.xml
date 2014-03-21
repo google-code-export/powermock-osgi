@@ -15,16 +15,16 @@
   ~ limitations under the License.
   -->
 <site>
-	<feature url="features/org.powermock.mockito-junit.feature-1.5.4.jar" id="org.powermock.mockito-junit.feature" version="1.5.4">
+	<feature url="features/org.powermock.mockito-junit.feature-1.5.4.1.jar" id="org.powermock.mockito-junit.feature" version="1.5.4.1">
 		<category name="Powermock"/>
 	</feature>
-	<feature url="features/org.powermock.mockito-testng.feature-1.5.4.jar" id="org.powermock.mockito-testng.feature" version="1.5.4">
+	<feature url="features/org.powermock.mockito-testng.feature-1.5.4.1.jar" id="org.powermock.mockito-testng.feature" version="1.5.4.1">
 		<category name="Powermock"/>
 	</feature>
-	<feature url="features/org.powermock.easymock-junit.feature-1.5.4.jar" id="org.powermock.easymock-junit.feature" version="1.5.4">
+	<feature url="features/org.powermock.easymock-junit.feature-1.5.4.1.jar" id="org.powermock.easymock-junit.feature" version="1.5.4.1">
 		<category name="Powermock"/>
 	</feature>
-	<feature url="features/org.powermock.easymock-testng.feature-1.5.4.jar" id="org.powermock.easymock-testng.feature" version="1.5.4">
+	<feature url="features/org.powermock.easymock-testng.feature-1.5.4.1.jar" id="org.powermock.easymock-testng.feature" version="1.5.4.1">
 		<category name="Powermock"/>
 	</feature>
 	<category-def name="Powermock" label="Powermock Feature Distributions">

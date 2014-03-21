@@ -24,6 +24,7 @@
     <artifactId>powermock-osgi</artifactId>
     <packaging>pom</packaging>
     <name>powermock-osgi</name>
+    <version>1.5.4.1</version>
     <description>
 		Parent of OSGI compatible release related projects.
 		Since "dependencies" submodule contains bundles built by "normal" maven build, which will be used by the "p2" submodule, it is impossible to build the two things together.
@@ -32,6 +33,9 @@
     <modules>
         <module>dependencies</module>
     </modules>
+	<properties>
+		<powermock.version>1.5.4</powermock.version>
+	</properties>
 	<build>
 		<plugins>
 			<plugin>
