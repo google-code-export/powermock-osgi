@@ -19,7 +19,7 @@
 	<parent>
 		<groupId>org.powermock</groupId>
 		<artifactId>powermock-osgi-p2</artifactId>
-		<version>1.5.4</version>
+		<version>1.5.4.1</version>
 	</parent>
 	<artifactId>powermock-osgi-p2-repostory</artifactId>
 	<packaging>eclipse-repository</packaging>

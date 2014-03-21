@@ -19,7 +19,7 @@
 	<parent>
 		<groupId>org.powermock</groupId>
 		<artifactId>powermock-osgi</artifactId>
-		<version>1.5.4</version>
+		<version>1.5.4.1</version>
 	</parent>
 	<artifactId>powermock-osgi-p2</artifactId>
 	<packaging>pom</packaging>
@@ -53,24 +53,24 @@
 		<dependency>
 			<groupId>org.powermock</groupId>
 			<artifactId>powermock-api-mockito</artifactId>
-			<version>${project.version}</version>
+			<version>${powermock.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.powermock</groupId>
 			<artifactId>powermock-api-easymock</artifactId>
-			<version>${project.version}</version>
+			<version>${powermock.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.powermock</groupId>
 			<artifactId>powermock-release-junit-without-mock-framework</artifactId>
 			<type>pom</type>
-			<version>${project.version}</version>
+			<version>${powermock.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.powermock</groupId>
 			<artifactId>powermock-release-testng-without-mock-framework</artifactId>
 			<type>pom</type>
-			<version>${project.version}</version>
+			<version>${powermock.version}</version>
 		</dependency>
 		<dependency>
 			<!--testng uses its packages-->

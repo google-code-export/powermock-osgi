@@ -2,7 +2,7 @@
 <feature
       id="org.powermock.easymock-testng.feature"
       label="Powermock with EasyMock and TestNG"
-      version="1.5.4"
+      version="1.5.4.1"
       provider-name="Powermock Team">
 
 	<description url="http://www.example.com/description">

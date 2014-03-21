@@ -20,7 +20,7 @@
 	<parent>
 		<groupId>org.powermock</groupId>
 		<artifactId>powermock-osgi-dependencies</artifactId>
-		<version>1.5.4</version>
+		<version>1.5.4.1</version>
 	</parent>
 
 	<artifactId>org.junit</artifactId>
@@ -56,6 +56,10 @@
 									!LICENSE.txt,
 									*
 								</Export-Package>
+								<Import-Package>
+									org.hamcrest;core=split,
+									*
+								</Import-Package>
 							</instructions>
 						</configuration>
 					</execution>

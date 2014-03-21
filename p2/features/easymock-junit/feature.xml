@@ -17,7 +17,7 @@
 <feature
       id="org.powermock.easymock-junit.feature"
       label="Powermock with EasyMock and Junit"
-      version="1.5.4"
+      version="1.5.4.1"
       provider-name="Powermock Team">
 
 	<description url="http://www.example.com/description">
