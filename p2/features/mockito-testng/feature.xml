@@ -17,7 +17,7 @@
 <feature
       id="org.powermock.mockito-testng.feature"
       label="Powermock with Mockito and TestNG"
-      version="1.5.4.1"
+      version="1.5.6.0"
       provider-name="Powermock Team">
 
 	<description url="http://www.example.com/description">
@@ -87,12 +87,6 @@ END OF TERMS AND CONDITIONS
 	</license>
 
 	<plugin
-         id="org.hamcrest.hamcrest-core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-	<plugin
          id="org.junit"
          download-size="0"
          install-size="0"
@@ -154,12 +148,6 @@ END OF TERMS AND CONDITIONS
          unpack="false"/>
 	<plugin
          id="com.beust.jcommander"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-	<plugin
-         id="org.yaml.snakeyaml"
          download-size="0"
          install-size="0"
          version="0.0.0"

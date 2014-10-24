@@ -17,7 +17,7 @@
 <feature
       id="org.powermock.mockito-junit.feature"
       label="Powermock with Mockito and Junit"
-      version="1.5.4.1"
+      version="1.5.6.0"
       provider-name="Powermock Team">
 
 	<description url="http://www.example.com/description">
@@ -86,12 +86,6 @@ You may add Your own copyright statement to Your modifications and may provide a
 END OF TERMS AND CONDITIONS
 	</license>
 
-	<plugin
-         id="org.hamcrest.hamcrest-core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
 	<plugin
          id="org.junit"
          download-size="0"
