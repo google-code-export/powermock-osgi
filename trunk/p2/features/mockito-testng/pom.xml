@@ -19,7 +19,7 @@
 	<parent>
 		<groupId>org.powermock</groupId>
 		<artifactId>powermock-osgi-p2-features</artifactId>
-		<version>1.5.4.1</version>
+		<version>1.5.6.0</version>
 	</parent>
 	<artifactId>org.powermock.mockito-testng.feature</artifactId>
 	<packaging>eclipse-feature</packaging>

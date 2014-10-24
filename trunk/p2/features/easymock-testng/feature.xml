@@ -2,7 +2,7 @@
 <feature
       id="org.powermock.easymock-testng.feature"
       label="Powermock with EasyMock and TestNG"
-      version="1.5.4.1"
+      version="1.5.6.0"
       provider-name="Powermock Team">
 
 	<description url="http://www.example.com/description">
@@ -125,12 +125,6 @@ END OF TERMS AND CONDITIONS
          unpack="false"/>
 	<plugin
          id="com.beust.jcommander"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-	<plugin
-         id="org.yaml.snakeyaml"
          download-size="0"
          install-size="0"
          version="0.0.0"
