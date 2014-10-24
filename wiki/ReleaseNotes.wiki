@@ -1,3 +1,8 @@
+= 1.5.6.0 =
+* Updated powermock to 1.5.6 version.
+* Replaced custom JUnit with the bundle from Orbit - manifest is ok now
+* Replaced custom Hamcrest Core with the bundle from Orbit - manifest is ok now
+
 = 1.5.4.1 =
 Still based on Powermock 1.5.4
 ===Fixes===
